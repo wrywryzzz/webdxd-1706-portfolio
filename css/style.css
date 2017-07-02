@@ -1,0 +1,169 @@
+body {
+	background:url(../img/background.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Orbitron',Arial,sans-serif;
+}
+.round-img {
+	border-radius:50%;
+}
+.design-img{
+	margin-left: 130px;
+	width: 250px;
+}
+.development-img{
+	margin-right: 80px;
+	width: 250px;
+	float:right;
+/*	clear:left;*/
+}
+.profile-img {
+	width:100px;
+}
+nav ul {
+	float:right
+}
+nav ul li{
+	display: inline-block;
+	margin:20px;
+}
+nav ul li a {
+  color: #d84f49;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition:linear 1s all;
+}
+nav ul li a:hover {
+  color: white;
+  font-size: 2rem;
+}
+.banner {
+	text-align:center;
+	margin-top:15%;
+}
+.banner2 {
+	/*text-align:left;*/
+	margin-top:5%;
+	/*display: inline-block;*/
+}
+.banner3 {
+	/*text-align:left;*/
+	margin-top:5%;
+	clear:left;
+	/*display: inline-block;*/
+}
+.banner2-inside{
+	width:50%;
+	float:right;
+	padding-top: 30px;
+}
+.banner3-inside{
+	width:50%;
+	float:left;
+	margin-left: 50px;
+	padding-top: 30px;
+}
+h1{
+	font-size: 3rem;
+	font-weight: 800;
+}
+h2{
+	font-size: 1rem;
+	font-weight: 400;
+}
+h3{
+	text-align: center;
+	font-size: 3rem;
+}
+.container{
+	width: 100%;
+	padding:20px 20px;
+	box-sizing: border-box;
+}
+
+footer{
+	background-color: #2B4B65;
+height: 50px;
+text-align: center;
+margin: 55px 0px;
+padding-top: 30px;
+width: 100%;
+}
+.footer-outside{
+	clear: right;
+	color: white;
+	padding-top: 150px;
+	/*border: 20px solid white;*/
+	/*margin:10px 0px;*/
+	width:100%;
+}
+
+ul{
+    list-style: none;
+}
+form input,form textarea,form button{
+	
+	width:100%;
+	height:40px;
+	border-radius: 7px;
+	margin-top: 5px;
+}
+form textarea{
+	height:100px;
+}
+form {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 100px;
+}
+form label{
+	margin-top: 15px;
+}
+input{
+	margin-top: 5px;
+}
+form label,form input{
+	display: block;
+}
+form button{
+	margin-top: 30px;
+	color:#FFE06F;
+	font-size: 30px;
+	height: 50px;
+	border:2px solid #2570C1;
+	background-color: #443721;
+}
+
+
+
+#user-container {
+    padding: 20px;
+}
+
+.user {
+    background-color: rgba(255,255,255,.5);
+    border: 5px solid #e0e0e0;
+    display: inline-block;
+    padding: 15px;
+}
+
+.user p span {
+    background-color: #26ABFF;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.search-input, .search-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.search-btn {
+    background-color: #26ABFF;
+    color: white;
+}
